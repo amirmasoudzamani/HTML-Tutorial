@@ -8,16 +8,16 @@ Hyper Text Markup Language
 **Tag**
 
 ```html
-     <tagname> Content goes here... </tagname>
-    
-     <html> HTML document content </html>
+<tagname> Content goes here... </tagname>
+
+<html> HTML document content </html>
 ```
   **Introduction to the HTML document**
   
 All HTML documents must start with a `<!DOCTYPE>` declaration.
 
 ```html
-    <!doctype html>
+<!doctype html>
 ```
 
 ## HTML Document structure
@@ -87,9 +87,11 @@ The `<h1>` to `<h6>` tags are used to define HTML headings.
 <p>This is third paragraph</p>
 ```
 ## Break line Tag
-The `<br>` tag inserts a single line break.
+The `html <br>` tag inserts a single line break.
 
-    My name is Amir <br> I am Programmer
+```html
+My name is Amir <br> I am Programmer
+```
 
 ## Horizontal Tag
 The `<hr>` tag defines a thematic break in an HTML page
