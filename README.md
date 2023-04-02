@@ -8,13 +8,14 @@ Hyper Text Markup Language
 **Tag**
 
 ```html
-<tagname> Content goes here... </tagname>
+     <tagname> Content goes here... </tagname>
     
-<html> HTML document content </html>
+     <html> HTML document content </html>
 ```
   **Introduction to the HTML document**
   
 All HTML documents must start with a `<!DOCTYPE>` declaration.
+
 ```html
     <!doctype html>
 ```
@@ -23,30 +24,32 @@ All HTML documents must start with a `<!DOCTYPE>` declaration.
 
 Simple HTML document
 
+```html
     <!doctype html>
 	<html>
 	    <head>
 	    </head>
 	    
-		<body>
+	    <body>
 	    </body>
 	</html>
-
+```
 head: _Search engine information structure_ body: _User information structure_
 
 ## HTML document title
 
-The `<title>` tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+The ```<title>``` tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 
+```html
     <!doctype html>
 		<html>
 		    <head>
-				<title> webdenj website </title>
+			<title> webdenj website </title>
 		    </head>
 	    <body>
 	    </body>
 	</html>
-
+```
 ## HTML content
 
 The `<body>` tag defines the document's body. There can only be one `<body>` element in an HTML document.
