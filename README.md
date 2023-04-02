@@ -7,9 +7,9 @@ Hyper Text Markup Language
 
 **Tag**
 
-    ``<tagname> Content goes here... </tagname>
+    <tagname> Content goes here... </tagname>
     
-    <html> HTML document content </html>``
+    <html> HTML document content </html>
   
   **Introduction to the HTML document**
   
