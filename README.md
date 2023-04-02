@@ -21,14 +21,14 @@ All HTML documents must start with a `<!DOCTYPE>` declaration.
 
 Simple HTML document
 
-    `<!doctype html>
+    <!doctype html>
 	<html>
 	    <head>
 	    </head>
 	    
 		<body>
 	    </body>
-	</html>`
+	</html>
 
 head: _Search engine information structure_ body: _User information structure_
 
