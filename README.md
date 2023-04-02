@@ -25,14 +25,14 @@ All HTML documents must start with a `<!DOCTYPE>` declaration.
 Simple HTML document
 
 ```html
-    <!doctype html>
-	<html>
-	    <head>
-	    </head>
+<!doctype html>
+<html>
+    <head>
+    </head>
 	    
-	    <body>
-	    </body>
-	</html>
+    <body>
+    </body>
+</html>
 ```
 head: _Search engine information structure_ body: _User information structure_
 
@@ -41,46 +41,51 @@ head: _Search engine information structure_ body: _User information structure_
 The ```<title>``` tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 
 ```html
-    <!doctype html>
-		<html>
-		    <head>
-			<title> webdenj website </title>
-		    </head>
-	    <body>
-	    </body>
-	</html>
+<!doctype html>
+<html>
+    <head>
+	<title> webdenj website </title>
+    </head>
+    <body>
+    </body>
+</html>
 ```
 ## HTML content
 
 The `<body>` tag defines the document's body. There can only be one `<body>` element in an HTML document.
 
-    <!doctype html>
-	<html>
-	    <head>
-			<title> webdenj website </title>
-	    </head>
-	    <body>
-			This is my website
-	    </body>
-	</html>
+```html
+<!doctype html>
+<html>
+    <head>
+	<title> webdenj website </title>
+    </head>
+    <body>
+	This is my website
+    </body>
+</html>
+```
 
 ## Heading Tags
 
 The `<h1>` to `<h6>` tags are used to define HTML headings.
 
-    <h1>heading1</h1>
-	<h2>heading2</h2>
-	<h3>heading3</h3>
-	<h4>heading4</h4>
-	<h5>heading5</h5>
-	<h6>heading6</h6>
+```html
+<h1>heading1</h1>
+<h2>heading2</h2>
+<h3>heading3</h3>
+<h4>heading4</h4>
+<h5>heading5</h5>
+<h6>heading6</h6>
+```
 
 ## Paragraph Tag
 
-    <p>This is first paragraph</p>
-	<p>This is second paragraph</p>
-	<p>This is third paragraph</p>
-
+```html
+<p>This is first paragraph</p>
+<p>This is second paragraph</p>
+<p>This is third paragraph</p>
+```
 ## Break line Tag
 The `<br>` tag inserts a single line break.
 
