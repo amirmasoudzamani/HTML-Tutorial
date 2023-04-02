@@ -7,11 +7,11 @@ Hyper Text Markup Language
 
 **Tag**
 
-`html
+```html
 <tagname> Content goes here... </tagname>
     
 <html> HTML document content </html>
-`
+```
   **Introduction to the HTML document**
   
 All HTML documents must start with a `<!DOCTYPE>` declaration.
