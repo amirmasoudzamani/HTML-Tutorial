@@ -26,7 +26,7 @@ Simple HTML document
 	    <head>
 	    </head>
 	    
-             <body>
+		<body>
 	    </body>
 	</html>
 
@@ -37,10 +37,10 @@ head: _Search engine information structure_ body: _User information structure_
 The `<title>` tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 
     <!doctype html>
-	<html>
-		<head>
-			<title> webdenj website </title>
-	        </head>
+		<html>
+		    <head>
+				<title> webdenj website </title>
+		    </head>
 	    <body>
 	    </body>
 	</html>
