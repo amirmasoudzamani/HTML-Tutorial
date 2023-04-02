@@ -38,7 +38,7 @@ head: _Search engine information structure_ body: _User information structure_
 
 ## HTML document title
 
-The ```<title>``` tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+The `<title>` tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 
 ```html
 <!doctype html>
@@ -87,7 +87,7 @@ The `<h1>` to `<h6>` tags are used to define HTML headings.
 <p>This is third paragraph</p>
 ```
 ## Break line Tag
-The `html <br>` tag inserts a single line break.
+The `<br>` tag inserts a single line break.
 
 ```html
 My name is Amir <br> I am Programmer
@@ -96,103 +96,129 @@ My name is Amir <br> I am Programmer
 ## Horizontal Tag
 The `<hr>` tag defines a thematic break in an HTML page
 
-    My name is Amir<hr> I am Programmer
+```html
+My name is Amir<hr> I am Programmer
+```
 
 ## Comment in HTML
 You can add comments to your HTML source by using the following syntax:
 
-    <!-- This is a comment -->  
-	<p>This is a paragraph.</p>  
-	<!-- Remember to add more information here -->
-	
+```html
+<!-- This is a comment -->  
+<p>This is a paragraph.</p>  
+<!-- Remember to add more information here -->
+```	
 ## Image Tag
 The `<img>` tag is used to embed an image in an HTML page.
 
-    <img src="webdenj.png" alt="webdenj.png" width="200" height="50" />
-    
+```html
+<img src="webdenj.png" alt="webdenj.png" width="200" height="50" />
+```
 ## List Tag
 
 **Order lists** An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
 
-    <ol>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>News</li>
-        <li>Contact Us</li>
-    </ol>
+```html
+<ol>
+<li>Home</li>
+<li>About Us</li>
+<li>News</li>
+<li>Contact Us</li>
+</ol>
+```
+
 **Unorder list** An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
 
-    <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>News</li>
-        <li>Contact Us</li>
-    </ul>
-    
+```html
+<ul>
+<li>Home</li>
+<li>About Us</li>
+<li>News</li>
+<li>Contact Us</li>
+</ul>
+```
+
 ## Link tag
 
 The `<a>` tag defines a hyperlink, which is used to link from one page to another.
 
-    <a href="http://google.com"> Go to Google</a>
+```html
+<a href="http://google.com"> Go to Google</a>
+```
+
 A linked page is normally displayed in the current browser window, unless you specify another target.
 
-    <a href="http://google.com" target="_blank"> Go to Google</a>
+```html
+<a href="http://google.com" target="_blank"> Go to Google</a>
+```
     
 ## Table Tag
 
 The `<table>` tag defines an HTML table. An HTML table consists of one `<table>` element and one or more `<tr>`  `<th>` and `<td>` elements.
 
-    <table>  
-	   <tr>  
-	       <th>Name</th>  
-	       <th>Family</th> 
-	       <th>Age</th>  
-	   </tr>  
-	   <tr>  
-	       <td>Amir</td>  
-	       <td>Zamani</td>  
-	       <td>30</td>
-	   </tr>
-	   <tr>  
-	       <td>Ali</td>  
-	       <td>Mohammadi</td>  
-	       <td>25</td>
-	   </tr>  
-	</table>
-	
+``html
+<table>  
+   <tr>  
+       <th>Name</th>  
+       <th>Family</th> 
+       <th>Age</th>  
+   </tr>  
+   <tr>  
+       <td>Amir</td>  
+       <td>Zamani</td>  
+       <td>30</td>
+   </tr>
+   <tr>  
+       <td>Ali</td>  
+       <td>Mohammadi</td>  
+       <td>25</td>
+   </tr>  
+</table>
+```
+
 ## Video Tag
 
 The HTML `<video>` element is used to show a video on a web page.
 
-    <video width="320"  height="240"  controls>  
-		<source src="movie.mp4"  type="video/mp4">  
-		<source src="movie.ogg"  type="video/ogg">  
-	Your browser does not support the video tag.  
-	</video>
+```html
+<video width="320"  height="240"  controls>  
+	<source src="movie.mp4"  type="video/mp4">  
+	<source src="movie.ogg"  type="video/ogg">  
+Your browser does not support the video tag.  
+</video>
+```
+
 To start a video automatically, use the `autoplay` attribute:
 
-    <video width="320"  height="240"  autoplay>  
-		<source src="movie.mp4"  type="video/mp4">  
-		<source src="movie.ogg"  type="video/ogg">  
-	Your browser does not support the video tag.  
-	</video>
-	
+```html
+<video width="320"  height="240"  autoplay>  
+	<source src="movie.mp4"  type="video/mp4">  
+	<source src="movie.ogg"  type="video/ogg">  
+Your browser does not support the video tag.  
+</video>
+```
+
 ## Audio Tag
 
 The HTML  `<audio>`  element is used to play an audio file on a web page.
 
-    <audio controls>  
-		<source src="horse.ogg"  type="audio/ogg">  
-		<source src="horse.mp3"  type="audio/mpeg">  
-	Your browser does not support the audio element.  
-	</audio>
+```html
+<audio controls>  
+	<source src="horse.ogg"  type="audio/ogg">  
+	<source src="horse.mp3"  type="audio/mpeg">  
+Your browser does not support the audio element.  
+</audio>
+```
+
 To start an audio file automatically, use the `autoplay` attribute:
 
-    <audio controls autoplay>  
-		<source src="horse.ogg"  type="audio/ogg">  
-		<source src="horse.mp3"  type="audio/mpeg">  
-	Your browser does not support the audio element.  
-	</audio>
+```html
+<audio controls autoplay>  
+	<source src="horse.ogg"  type="audio/ogg">  
+	<source src="horse.mp3"  type="audio/mpeg">  
+Your browser does not support the audio element.  
+</audio>
+```
 	
 ## Forms
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
