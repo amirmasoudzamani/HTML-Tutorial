@@ -20,7 +20,7 @@ All HTML documents must start with a `<!DOCTYPE>` declaration.
 ## HTML Document structure
 
 Simple HTML document
-```
+`
     <!doctype html>
 	<html>
 	    <head>
@@ -29,7 +29,7 @@ Simple HTML document
 		<body>
 	    </body>
 	</html>
-```
+`
 
 head: _Search engine information structure_ body: _User information structure_
 
