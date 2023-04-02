@@ -15,8 +15,9 @@ Hyper Text Markup Language
   **Introduction to the HTML document**
   
 All HTML documents must start with a `<!DOCTYPE>` declaration.
-
+```html
     <!doctype html>
+```
 
 ## HTML Document structure
 
