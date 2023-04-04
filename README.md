@@ -156,7 +156,7 @@ A linked page is normally displayed in the current browser window, unless you sp
 
 The `<table>` tag defines an HTML table. An HTML table consists of one `<table>` element and one or more `<tr>`  `<th>` and `<td>` elements.
 
-``html
+```html
 <table>  
    <tr>  
        <th>Name</th>  
@@ -223,66 +223,74 @@ Your browser does not support the audio element.
 ## Forms
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 
-    <form action="http://gitmag.ir" method="GET">
-        ...
-    </form>
+```html
+<form action="http://gitmag.ir" method="GET">
+...
+</form>
+```
 
 **Input tag** One of the most used form element is the `<input>` element. The `<input>` element can be displayed in several ways, depending on the `type` attribute.
 
-    <label for="fname">First name:</label>  
-	<input type="text" id="fname" name="fname">
-	
+```html
+<label for="fname">First name:</label>  
+<input type="text" id="fname" name="fname">
+```
+
 **Textarea tag** The `<textarea>` element defines a multi-line input field (a text area):
 
-    <textarea name="message" rows="10" cols="30">  
-    The cat was playing in the garden.  
-	</textarea>
-	
+```html
+<textarea name="message" rows="10" cols="30">  
+	The cat was playing in the garden.  
+</textarea>
+```
+
 **Select tag** The `<select>` element defines a drop-down list:
 
-    <select name="cars">  
-        <option value="volvo">Volvo</option>  
-        <option value="benz">Benz</option>  
-        <option value="fiat">Fiat</option>  
-        <option value="audi">Audi</option>  
-    </select>
-    
+```html
+<select name="cars">  
+	<option value="volvo">Volvo</option>  
+	<option value="benz">Benz</option>  
+	<option value="fiat">Fiat</option>  
+	<option value="audi">Audi</option>  
+</select>
+```
+
 ## id Attribute
 
 The HTML `id` attribute is used to specify a unique id for an HTML element.
 
-    <html>
-    <head>
-    <style>
-    #html{
-      background-color: #F15C2A;
-      color: white;
-      margin: 20px;
-      padding: 20px;
-    }
-    
-    #css{
-      background-color: #019ED9;
-      color: white;
-      margin: 20px;
-      padding: 20px;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <div id="html">
-    <h2>HTML</h2>
-    <p>Hyper Text Markup Language</p>
-    </div> 
-    
-    <div id="css">
-    <h2>CSS</h2>
-    <p>Stylesheet Language</p>
-    </div>
-    
-    </body>
-    </html>
+```html
+<html>
+   <head>
+	<style>
+	    #html{
+		background-color: #F15C2A;
+		color: white;
+		margin: 20px;
+		padding: 20px;
+		}
+
+		#css{
+		background-color: #019ED9;
+		color: white;
+		margin: 20px;
+		padding: 20px;
+		}
+		</style>	
+  </head>
+  <body>
+	<div id="html">
+	    <h2>HTML</h2>
+	    <p>Hyper Text Markup Language</p>
+	</div> 
+	<div id="css">
+	    <h2>CSS</h2>
+	    <p>Stylesheet Language</p>
+	</div>
+
+  </body>
+</html>
+```
 
 ## class Attribute
 
