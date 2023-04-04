@@ -91,6 +91,25 @@ The `<h1>` to `<h6>` tags are used to define HTML headings.
 <p>This is second paragraph</p>
 <p>This is third paragraph</p>
 ```
+## Important Tags
+The `<strong>` tag is used to define text with strong importance. The content inside is typically displayed in **bold**.
+
+```html
+<h2>webdenj</h2>
+
+<p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit</strong> Provident obcaecati suscipit</p>
+```
+
+> Note : Use the  `<b>`  tag to specify bold text without any extra importance!
+
+The `<em>` tag is used to define emphasized text. The content inside is typically displayed in _italic_.
+
+```html
+<h2>webdenj</h2>
+
+<p>Lorem ipsum dolor sit amet consectetur <em>adipisicing elit</em> Provident obcaecati suscipit</p>
+```
+
 ## Break line Tag
 The `<br>` tag inserts a single line break.
 
