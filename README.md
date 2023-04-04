@@ -284,7 +284,8 @@ An HTML form is used to collect user input. The user input is most often sent to
     <input type="text" id="lname" name="lname"><br><br>
     <input type="submit" value="Submit">
 </form>
-	
+```
+
 `<input type="checkbox">` defines a **checkbox**:
 
 ```html
