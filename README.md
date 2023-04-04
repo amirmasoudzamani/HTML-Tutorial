@@ -159,7 +159,7 @@ A linked page is normally displayed in the current browser window, unless you sp
 The `rel` attribute specifies the relationship between the current document and the linked document.
  
  ```html
-    <a rel="nofollow" href="http://google.com" target="_blank"> Go to Google</a>
+<a rel="nofollow" href="http://google.com" target="_blank"> Go to Google</a>
 ```
 
 > **Tip:** Search engines can use this attribute to get more information about a link!
