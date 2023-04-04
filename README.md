@@ -2,7 +2,7 @@
 
 Hyper Text Markup Language
 
-**Code Editor**
+**Code Editors**
 
  - [Visual Studio Code](https://code.visualstudio.com/)
  - [ATOM](https://github.blog/2022-06-08-sunsetting-atom/)
