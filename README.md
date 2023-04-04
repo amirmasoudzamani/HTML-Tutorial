@@ -186,7 +186,31 @@ The `<table>` tag defines an HTML table. An HTML table consists of one `<table>`
    </tr>  
 </table>
 ```
+An HTML table with a `<thead>` and `<tbody>` element:
 
+```html
+<table>
+    <thead>  
+        <tr>  
+            <th>Name</th>  
+            <th>Family</th> 
+            <th>Age</th>  
+        </tr>
+    </thead> 
+    <tbody>
+        <tr>  
+            <td>Amir</td>  
+            <td>Zamani</td>  
+            <td>30</td>
+        </tr>
+        <tr>  
+            <td>Ali</td>  
+            <td>Mohammadi</td>  
+            <td>25</td>
+        </tr>
+    </tbody> 
+    </table>
+```
 ## Video Tag
 
 The HTML `<video>` element is used to show a video on a web page.
