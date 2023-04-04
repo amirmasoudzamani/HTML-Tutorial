@@ -4,6 +4,7 @@ Hyper Text Markup Language
 
 **Code Editor**
 [Visual Studio Code](https://code.visualstudio.com/)
+[Notepad++](https://notepad-plus-plus.org/downloads/)
 
 **Tag**
 
