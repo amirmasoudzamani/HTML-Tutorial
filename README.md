@@ -31,7 +31,7 @@ Simple HTML document
 
 ```html
 <!doctype html>
-<html>
+<html lang="en" dir="rtl">
     <head>
     </head>
 	    
