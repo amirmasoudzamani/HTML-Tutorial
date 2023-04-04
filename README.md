@@ -277,6 +277,7 @@ An HTML form is used to collect user input. The user input is most often sent to
 
 `<input type="submit">` defines a button for **submitting** form data to a **form-handler**:
 
+```html
 <form>
     <label for="fname">First name:</label><br>  
     <input type="text" id="fname" name="fname"><br><br>
