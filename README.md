@@ -261,34 +261,34 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
 
 ```html
 <html>
-   <head>
-	<style>
-	    #html{
-		background-color: #F15C2A;
-		color: white;
-		margin: 20px;
-		padding: 20px;
-		}
+    <head>
+    <style>
+        #html{
+            background-color: #F15C2A;
+            color: white;
+            margin: 20px;
+            padding: 20px;
+        }
 
-		#css{
-		background-color: #019ED9;
-		color: white;
-		margin: 20px;
-		padding: 20px;
-		}
-		</style>	
-  </head>
-  <body>
-	<div id="html">
-	    <h2>HTML</h2>
-	    <p>Hyper Text Markup Language</p>
-	</div> 
-	<div id="css">
-	    <h2>CSS</h2>
-	    <p>Stylesheet Language</p>
-	</div>
+        #css{
+            background-color: #019ED9;
+            color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+        </style>	
+    </head>
+    <body>
+        <div id="html">
+            <h2>HTML</h2>
+            <p>Hyper Text Markup Language</p>
+        </div> 
+        <div id="css">
+            <h2>CSS</h2>
+            <p>Stylesheet Language</p>
+        </div>
 
-  </body>
+    </body>
 </html>
 ```
 
@@ -296,93 +296,100 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
 
 The HTML `class` attribute is used to specify a class for an HTML element.
 
-    <html>
+```html
+<html>
     <head>
     <style>
-    .Front{
-      background-color: #EFEFEF;
-	  color: black;
-	  margin: 20px;
-	  padding: 20px;
+        .Front{
+            background-color: #EFEFEF;
+	        color: black;
+	        margin: 20px;
+	        padding: 20px;
+        }
+    </style>
+    </head>
+    <body>
+    
+        <div class="Front">
+            <h2>HTML</h2>
+            <p>Hyper Text Markup Language</p>
+        </div> 
+    
+        <div class="Front">
+            <h2>CSS</h2>
+            <p>Stylesheet Language</p>
+        </div>
+    
+    </body>
+</html>
+```
+## iFream Tag
+
+The HTML `<iframe>` tag specifies an inline frame.
+
+```html
+<iframe src="url"  frameborder="0"></iframe>
+```
+The height and width are specified in pixels by default:
+
+```html
+<iframe src="https://webdenj.com"  height="200"  width="300"  frameborder="0"></iframe>
+```
+
+## div  Tag
+The `<div>` tag defines a division or a section in an HTML document.
+
+```html
+<div>
+    <h2>webdenj.com</h2>
+    <p>This is a paragraph</p>
+</div> 
+```
+
+A `<div>` section in a document styled with CSS:
+
+```html
+<html>
+    <head>
+    <style>
+    #header{
+        border : 2px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    #content{
+        border : 2px solid red;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    #footer{
+        border : 2px solid yellow;
+        margin: 20px;
+        padding: 20px;
     }
     </style>
     </head>
     <body>
     
-    <div class="Front">
-    <h2>HTML</h2>
-    <p>Hyper Text Markup Language</p>
-    </div> 
+        <div id="header">
+            <h2>header</h2>
+            <p>website header</p>
+        </div> 
     
-    <div class="Front">
-    <h2>CSS</h2>
-    <p>Stylesheet Language</p>
-    </div>
+        <div id="content">
+            <h3>content</h3>
+            <p>content section website</p>
+        </div>
+    
+        <div id="footer">
+            <p>Copyright 1999-2023</p>
+        </div>
     
     </body>
-    </html>
-
-## iFream Tag
-
-The HTML `<iframe>` tag specifies an inline frame.
-
-    <iframe src="url"  frameborder="0"></iframe>
-    
-The height and width are specified in pixels by default:
-
-    <iframe src="https://webdenj.com"  height="200"  width="300"  frameborder="0"></iframe>
-
-## div  Tag
-The `<div>` tag defines a division or a section in an HTML document.
-
-    <div>
-	    <h2>webdenj.com</h2>
-	    <p>This is a paragraph</p>
-    </div> 
-    
-A `<div>` section in a document styled with CSS:
-
-    <html>
-        <head>
-        <style>
-        #header{
-    	  border : 2px solid black;
-    	  margin: 20px;
-    	  padding: 20px;
-        }
-        
-        #content{
-    	  border : 2px solid red;
-    	  margin: 20px;
-    	  padding: 20px;
-        }
-        
-        #footer{
-    	  border : 2px solid yellow;
-    	  margin: 20px;
-    	  padding: 20px;
-        }
-        </style>
-        </head>
-        <body>
-        
-        	<div id="header">
-        		<h2>header</h2>
-        		<p>website header</p>
-        	</div> 
-        
-        	<div id="content">
-        		<h3>content</h3>
-        		<p>content section website</p>
-        	</div>
-        
-        	<div id="footer">
-        		<p>Copyright 1999-2023</p>
-        	</div>
-        
-        </body>
-        </html>
-
+</html>
+```
 
 
 ## Span Tag
@@ -393,77 +400,86 @@ The `<span>` tag is an inline container used to mark up a part of a text, or a p
     
 ## Semantic Tag
 
+```html
+<div  id="header">
+    <h2>webdenj</h2>
+    <div  id="nav">
+	    <ul>
+		    <li>Item 1</li>
+		    <li>Item 2</li>
+	    </ul>
+</div>
 
-    <div  id="header">
-	    <h2>webdenj</h2>
-	    <div  id="nav">
-		    <ul>
-			    <li>Item 1</li>
-			    <li>Item 2</li>
-		    </ul>
-    </div>
+</div>
+<div  class="main">
+    <div  id="article"></div>
+    <div  id="aside"></div>
+</div>
 
-    </div>
-    <div  class="main">
-	    <div  id="article"></div>
-	    <div  id="aside"></div>
-    </div>
-    
-    <div  id="footer">
-	    <p>Copyright 1999-2023</p>
-    </div>
+<div  id="footer">
+    <p>Copyright 1999-2023</p>
+</div>
+```
     
 A semantic element clearly describes its meaning to both the browser and the developer.
 
-    <header>
-	    <h2>webdenj</h2>
-	    <nav>
-		    <ul>
-			    <li>Item 1</li>
-			    <li>Item 2</li>
-		    </ul>
-	   </nav>
-    </header>
-    
-    <div  class="main">
-	    <article>
-		    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		</article>
-	    <aside></aside>
-    </div>
-    
-    <footer>
-	    <p>Copyright 1999-2023</p>
-    </footer>
+```html
+<header>
+    <h2>webdenj</h2>
+    <nav>
+	    <ul>
+		  <li>Item 1</li>
+		  <li>Item 2</li>
+	    </ul>
+   </nav>
+</header>
+
+<div  class="main">
+        <article>
+	    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	</article>
+    <aside></aside>
+</div>
+
+<footer>
+	<p>Copyright 1999-2023</p>
+</footer>
+```
 
 ## Section Tag
 The `<section>` tag defines a section in a document.
 
-    <section>
-		<h2>webdenj website</h2>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-	</section>
+```html
+<section>
+     <h2>webdenj website</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</section>
+```
 
 ## Article Tag
 
 The `<article>` tag specifies independent, self-contained content.
 
-    <h1>webdenj</h1>
+```html
+<h1>webdenj</h1>
 
-	<article>
-		<h2>webdenj website</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	</article>
+<article>
+     <h2>webdenj website</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</article>
+```
 
 ## Meta tags
 
 The `<meta>` tag defines metadata about an HTML document. Metadata is data (information) about data.
 
-    <head>  
-        <meta charset="UTF-8">  
-        <meta name="description" content="Free Web tutorials">  
-        <meta name="keywords" content="HTML, CSS, JavaScript">  
-        <meta name="author" content="John Doe">  
-    </head>
+```html
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="description" content="Free Web tutorials">  
+    <meta name="keywords" content="HTML, CSS, JavaScript">  
+    <meta name="author" content="John Doe">  
+</head>
+```
 
 > keywords: _Define keywords for search engines_ description: _Define a description of your web page_ author: _Define the author of a page_
