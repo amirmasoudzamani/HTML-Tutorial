@@ -156,7 +156,13 @@ A linked page is normally displayed in the current browser window, unless you sp
 ```html
 <a href="http://google.com" target="_blank"> Go to Google</a>
 ```
-    
+The `rel` attribute specifies the relationship between the current document and the linked document.
+ 
+ ```html
+    <a rel="nofollow" href="http://google.com" target="_blank"> Go to Google</a>
+```
+
+> **Tip:** Search engines can use this attribute to get more information about a link!
 ## Table Tag
 
 The `<table>` tag defines an HTML table. An HTML table consists of one `<table>` element and one or more `<tr>`  `<th>` and `<td>` elements.
