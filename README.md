@@ -267,8 +267,49 @@ An HTML form is used to collect user input. The user input is most often sent to
 **Input tag** One of the most used form element is the `<input>` element. The `<input>` element can be displayed in several ways, depending on the `type` attribute.
 
 ```html
-<label for="fname">First name:</label>  
-<input type="text" id="fname" name="fname">
+<form>
+    <label for="fname">First name:</label><br>  
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>  
+    <input type="text" id="lname" name="lname"><br><br>
+</form>
+```
+
+`<input type="submit">` defines a button for **submitting** form data to a **form-handler**:
+
+<form>
+    <label for="fname">First name:</label><br>  
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>  
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+</form>
+	
+`<input type="checkbox">` defines a **checkbox**:
+
+```html
+<form>
+    <label for="fname">First name:</label><br>  
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>  
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="RememberMe">Remember Me</label>
+    <input type="checkbox" id="RememberMe" name="lname"><br><br> 
+    <input type="submit" value="Submit">
+</form>
+```
+
+`<input type="radio">` defines a **radio button**:
+
+```html
+<form>  
+     <input type="radio" id="html" name="fav_language" value="HTML">  
+     <label for="html">HTML</label><br>  
+     <input type="radio" id="css" name="fav_language" value="CSS">  
+     <label for="css">CSS</label><br>  
+     <input type="radio" id="javascript" name="fav_language" value="JavaScript">  
+     <label for="javascript">JavaScript</label>  
+</form>
 ```
 
 **Textarea tag** The `<textarea>` element defines a multi-line input field (a text area):
@@ -277,17 +318,6 @@ An HTML form is used to collect user input. The user input is most often sent to
 <textarea name="message" rows="10" cols="30">  
 	The cat was playing in the garden.  
 </textarea>
-```
-
-**Select tag** The `<select>` element defines a drop-down list:
-
-```html
-<select name="cars">  
-	<option value="volvo">Volvo</option>  
-	<option value="benz">Benz</option>  
-	<option value="fiat">Fiat</option>  
-	<option value="audi">Audi</option>  
-</select>
 ```
 
 ## id Attribute
