@@ -416,10 +416,10 @@ The `<span>` tag is an inline container used to mark up a part of a text, or a p
     <h2>webdenj</h2>
     <div  id="nav">
 	    <ul>
-		    <li>Item 1</li>
-		    <li>Item 2</li>
+		<li>Item 1</li>
+		<li>Item 2</li>
 	    </ul>
-</div>
+    </div>
 
 </div>
 <div  class="main">
@@ -438,10 +438,10 @@ A semantic element clearly describes its meaning to both the browser and the dev
 <header>
     <h2>webdenj</h2>
     <nav>
-	    <ul>
-		  <li>Item 1</li>
-		  <li>Item 2</li>
-	    </ul>
+        <ul>
+	    <li>Item 1</li>
+            <li>Item 2</li>
+	</ul>
    </nav>
 </header>
 
