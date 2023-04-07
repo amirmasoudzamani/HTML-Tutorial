@@ -349,32 +349,14 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
 <html>
     <head>
     <style>
-        #html{
-            background-color: #F15C2A;
-            color: white;
-            margin: 20px;
-            padding: 20px;
-        }
+        .my-paragraphs {
+           font-family: Arial;
+           color: blue;
+         }
+    </style>
 
-        #css{
-            background-color: #019ED9;
-            color: white;
-            margin: 20px;
-            padding: 20px;
-        }
-        </style>	
-    </head>
-    <body>
-        <div id="html">
-            <h2>HTML</h2>
-            <p>Hyper Text Markup Language</p>
-        </div> 
-        <div id="css">
-            <h2>CSS</h2>
-            <p>Stylesheet Language</p>
-        </div>
-
-    </body>
+<p class="my-paragraphs">This is the first paragraph.</p>
+<p class="my-paragraphs">This is the second paragraph.</p>
 </html>
 ```
 
