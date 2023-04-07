@@ -355,7 +355,7 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
          }
     </style>
     <body>
-       <p class="my-paragraphs">This is the first paragraph.</p>
+       <p id="my-paragraphs">This is the first paragraph.</p>
        <p class="my-paragraphs">This is the second paragraph.</p>
     </body>
 </html>
@@ -369,26 +369,14 @@ The HTML `class` attribute is used to specify a class for an HTML element.
 <html>
     <head>
     <style>
-        .Front{
-            background-color: #EFEFEF;
-	        color: black;
-	        margin: 20px;
-	        padding: 20px;
-        }
+        .my-paragraphs {
+           font-family: Arial;
+           color: red;
+         }
     </style>
-    </head>
     <body>
-    
-        <div class="Front">
-            <h2>HTML</h2>
-            <p>Hyper Text Markup Language</p>
-        </div> 
-    
-        <div class="Front">
-            <h2>CSS</h2>
-            <p>Stylesheet Language</p>
-        </div>
-    
+       <p class="my-paragraphs">This is the first paragraph.</p>
+       <p class="my-paragraphs">This is the second paragraph.</p>
     </body>
 </html>
 ```
