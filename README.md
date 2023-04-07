@@ -351,7 +351,7 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
     <style>
         .my-paragraphs {
            font-family: Arial;
-           color: blue;
+           color: red;
          }
     </style>
     <body>
