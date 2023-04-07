@@ -354,9 +354,10 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
            color: blue;
          }
     </style>
-
-<p class="my-paragraphs">This is the first paragraph.</p>
-<p class="my-paragraphs">This is the second paragraph.</p>
+    <body>
+       <p class="my-paragraphs">This is the first paragraph.</p>
+       <p class="my-paragraphs">This is the second paragraph.</p>
+    </body>
 </html>
 ```
 
