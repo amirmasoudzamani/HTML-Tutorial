@@ -53,7 +53,7 @@ The `<title>` tag defines the title of the document. The title must be text-only
 <!doctype html>
 <html>
     <head>
-	     <title> webdenj website </title>
+	     <title> CodeExplore </title>
     </head>
     <body>
     </body>
@@ -67,7 +67,7 @@ The `<body>` tag defines the document's body. There can only be one `<body>` ele
 <!doctype html>
 <html>
     <head>
-	     <title> webdenj website </title>
+	     <title> CodeExplore </title>
     </head>
     <body>
 	     This is my website
@@ -78,14 +78,14 @@ The `<body>` tag defines the document's body. There can only be one `<body>` ele
 The `<br>` tag inserts a single line break.
 
 ```html
-My name is Amir <br> I am Programmer
+My name is John <br> Im Programmer
 ```
 
 ## Horizontal Tag
 The `<hr>` tag defines a thematic break in an HTML page
 
 ```html
-My name is Amir<hr> I am Programmer
+My name is John<hr> Im Programmer
 ```
 ## Paragraph Tag
 
