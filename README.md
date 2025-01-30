@@ -97,6 +97,11 @@ The HTML `<p>` element defines a paragraph.
 <p>This is third paragraph</p>
 ```
 
+### Paragraph Editable
+```html
+<p contenteditable="true">This is first paragraph</p>
+```
+
 ## Heading Tags
 
 The `<h1>` to `<h6>` tags are used to define HTML headings.
