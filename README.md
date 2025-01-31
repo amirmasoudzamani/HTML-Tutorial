@@ -183,6 +183,7 @@ The <dl> tag defines the description list, the <dt> tag defines the term (name),
 	 <dt>PHP</dt>
 	  <dd>» Back-End</dd>
 </dl>
+```
 
 ## Link tag
 
