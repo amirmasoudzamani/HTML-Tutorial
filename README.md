@@ -211,7 +211,7 @@ The `rel` attribute specifies the relationship between the current document and 
  
  ```html
 <a rel="nofollow" href="http://google.com" target="_blank"> Go to Google</a>
-<a rel="author" href="http://webdenj.com" target="_blank"> Go to Webdenj</a>
+<a rel="author" href="http://codeexplore.ir" target="_blank"> Go to CodeExplore</a>
 ```
 
 > Search engines can use this attribute to get more information about a link!
