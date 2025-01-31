@@ -172,7 +172,7 @@ The `<img>` tag is used to embed an image in an HTML page.
 </ul>
 ```
 **Description lists** A description list is a list of terms, with a description of each term.
-The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term:
 
 ```html 
 <dl>
