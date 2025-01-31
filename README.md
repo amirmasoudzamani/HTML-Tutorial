@@ -146,7 +146,7 @@ You can add comments to your HTML source by using the following syntax:
 The `<img>` tag is used to embed an image in an HTML page.
 
 ```html
-<img src="https://codeexplore.ir/wp-content/uploads/2024/07/mobile-logo.png" alt="CodeExplore Logo" width="200" height="100" />
+<img src="https://codeexplore.ir/wp-content/uploads/2024/07/mobile-logo.png" loading="lazy" alt="CodeExplore Logo" width="200" height="100" />
 ```
 ## List Tag
 
