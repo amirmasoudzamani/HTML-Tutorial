@@ -153,7 +153,7 @@ The `<img>` tag is used to embed an image in an HTML page.
 **Order lists** An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
 
 ```html
-<ol>
+<ol type="1" >
 	<li>Home</li>
 	<li>About Us</li>
 	<li>News</li>
@@ -164,13 +164,26 @@ The `<img>` tag is used to embed an image in an HTML page.
 **Unorder list** An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
 
 ```html
-<ul>
+<ul type="none" >
 	<li>Home</li>
 	<li>About Us</li>
 	<li>News</li>
 	<li>Contact Us</li>
 </ul>
 ```
+**Description lists** A description list is a list of terms, with a description of each term.
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+
+```html 
+<dl>
+	 <dt>HTML</dt>
+	  <dd>» Front-End</dd>
+	 <dt>CSS</dt>
+	  <dd>» Front-End</dd>
+	 <dt>PHP</dt>
+	  <dd>» Back-End</dd>
+</dl>
+
 ## Link tag
 
 The `<a>` tag defines a hyperlink, which is used to link from one page to another.
