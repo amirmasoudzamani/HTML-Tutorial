@@ -399,7 +399,7 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
 <h2 id="title">CodeExplore</h2>
 <p id="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
 <hr>
-<h3>Webdenj</h3>
+<h3>CodeExplore</h3>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus beatae error minima, doloremque fugit neque at quam!</p>
 ```
 
@@ -408,10 +408,10 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
 The HTML `class` attribute is used to specify a class for an HTML element.
 
 ```html
-<h2 class="title">Webdenj</h2>
+<h2 class="title">CodeExplore</h2>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
 <hr>
-<h3 class="title">Webdenj</h3>
+<h3 class="title">CodeExplore</h3>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus beatae error minima, doloremque fugit neque at quam!</p>
 ```
 
@@ -461,7 +461,7 @@ The `<section>` tag defines a section in a document.
 
 ```html
 <section>
-     <h2>webdenj website</h2>
+     <h2>CodeExplore website</h2>
      <p>webdenj Academy is a cozy environment for current or future web designers.</p>
 </section>
 ```
