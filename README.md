@@ -343,7 +343,7 @@ An HTML form is used to collect user input. The user input is most often sent to
 ```
 **Select tag** The `<select>` element defines a drop-down list:
 ```html
-<select name="cars">  
+<select name="cars" multiple>  
     <option value="volvo">Volvo</option>  
     <option value="benz">Benz</option>  
     <option value="fiat">Fiat</option>  
@@ -377,7 +377,7 @@ An HTML form is used to collect user input. The user input is most often sent to
 
 ```html
 <label for="myfile">Select a file:</label>  
-<input type="file"  id="myfile"  name="myfile">
+<input type="file"  id="myfile"  name="myfile" accept="jpg" multiple>
 ```
 ## iFrame Tag
 
