@@ -308,7 +308,7 @@ An HTML form is used to collect user input. The user input is most often sent to
 
 
 ```html
-<form action="http://webdenj.com" method="GET">
+<form action="#" method="GET">
 ...
 </form>
 ```
