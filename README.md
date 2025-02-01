@@ -389,14 +389,14 @@ The HTML `<iframe>` tag specifies an inline frame.
 The height and width are specified in pixels by default:
 
 ```html
-<iframe src="https://codeexplore.ir"  width="300" height="200" frameborder="0"></iframe>
+<iframe src="https://w3schools.com"  width="300" height="200" frameborder="0"></iframe>
 ```
 ## id Attribute
 
 The HTML `id` attribute is used to specify a unique id for an HTML element.
 
 ```html
-<h2 id="title">Webdenj</h2>
+<h2 id="title">CodeExplore</h2>
 <p id="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
 <hr>
 <h3>Webdenj</h3>
