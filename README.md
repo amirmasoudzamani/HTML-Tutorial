@@ -446,12 +446,8 @@ A semantic element clearly describes its meaning to both the browser and the dev
 <nav> Website navbar </nav>
 <main>
     <aside>Website Sidebar</aside>
-    <sction>
-    	<article>Article 1</article>
-    	<article>Article 2</article>
-    	<article>Article 3</article>
-    	<article>Article 4</article>
-    </sction>
+    <sction>Section</sction>
+    <article>Article</article>
 </main>
 <footer>Website Footer</footer>
 ```
