@@ -509,10 +509,53 @@ The HTML `<canvas>` element is used to draw graphics, on the fly, via JavaScript
 ```
 The `<canvas>` element is only a contai‍‍ner for graphics. You must use JavaScript to actually draw the graphics.
 
+##Functional tags
+Learn tags such as ‍‍`progress`, `base`, `acronym`, `dialog`, and `datalist` in this section
+```html
+<label for="file">Upload progress file:</label>
+<progress id="file" value="32" max="100">32%</progress>
+```
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <base href="https://codeexplore.ir/">
+    </head>
+    <body>
+        <img src="mobile-logo.png" alt="CodeExplore Logo">
+        <a href="about-us">About us</a>      
+    </body>
+</html>
+```
+```html
+<p>
+     <acronym title="World Health Organization">WHO</acronym> 
+     It is an international organization that works to improve global health.
+</p>
+```
+```html
+<p title="Free Web tutorials">CodeExplore</p>
+```
+```html
+<dialog open>This is an open dialog window</dialog>
+```
+```html
+<form action="#" method="get">
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+</form>
+```
 ## Meta tags
 
 The `<meta>` tag defines metadata about an HTML document. Metadata is data (information) about data.
-
 ```html
 <head>  
     <meta charset="UTF-8">  
