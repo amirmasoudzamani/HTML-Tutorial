@@ -451,7 +451,7 @@ A semantic element clearly describes its meaning to both the browser and the dev
 </main>
 <footer>Website Footer</footer>
 ```
-**other semantic elements**
+**Other semantic elements**
 ```html
 <details>
     <summary>Learn more</summary>
@@ -489,6 +489,25 @@ The `<article>` tag specifies independent, self-contained content.
      <h2>CodeExplore website</h2>
      <p>Learn, enjoy and stay up to date with the CodeExplore.</p>
 </article>
+```
+
+## Canvas Tag
+The HTML `<canvas>` element is used to draw graphics, on the fly, via JavaScript.
+```html
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    Your browser does not support the HTML canvas tag.
+</canvas>
+```
+The `<canvas>` element is only a contai‍‍ner for graphics. You must use JavaScript to actually draw the graphics.
+‍‍‍‍‍```html
+<script>
+	var canvas = document.getElementById("myCanvas");
+	var ctx = canvas.getContext("2d");
+	
+	// Draw a red rectangle
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(20, 20, 150, 75);
+</script>
 ```
 
 ## Meta tags
