@@ -409,10 +409,10 @@ The HTML `class` attribute is used to specify a class for an HTML element.
 
 ```html
 <h2 class="title">CodeExplore</h2>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
+<p class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad temporibus voluptatum consectetur maiores dignissimos reiciendis itaque placeat nobis recusandae alias!</p>
 <hr>
 <h3 class="title">CodeExplore</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus beatae error minima, doloremque fugit neque at quam!</p>
+<p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minus beatae error minima, doloremque fugit neque at quam!</p>
 ```
 
 > The class attribute can be used on any HTML element.
