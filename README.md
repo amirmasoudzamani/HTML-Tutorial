@@ -451,6 +451,22 @@ A semantic element clearly describes its meaning to both the browser and the dev
 </main>
 <footer>Website Footer</footer>
 ```
+**other semantic elements**
+```html
+<details>
+    <summary>Learn more</summary>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</details>
+
+<figure>
+    <img src="./mobile-logo.png" alt="CodeExplore Logo" width="200px" height="200px"/>
+    <figcaption>CodeExplore Website Logo</figcaption>
+</figure>
+
+<p>Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.</p>
+
+<p>Event Date: <time datetime="2025-02-02T20:00:00">Feb2,2025-10:00</time></p>
+```
 
 ## Section Tag
 The `<section>` tag defines a section in a document.
@@ -458,7 +474,7 @@ The `<section>` tag defines a section in a document.
 ```html
 <section>
      <h2>CodeExplore website</h2>
-     <p>webdenj Academy is a cozy environment for current or future web designers.</p>
+     <p>Learn, enjoy and stay up to date with the CodeExplore.</p>
 </section>
 ```
 
@@ -467,11 +483,11 @@ The `<section>` tag defines a section in a document.
 The `<article>` tag specifies independent, self-contained content.
 
 ```html
-<h1>webdenj</h1>
+<h1>CodeExplore</h1>
 
 <article>
-     <h2>webdenj website</h2>
-     <p>webdenj Academy is a cozy environment for current or future web designers.</p>
+     <h2>CodeExplore website</h2>
+     <p>Learn, enjoy and stay up to date with the CodeExplore.</p>
 </article>
 ```
 
